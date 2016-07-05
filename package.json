@@ -1,0 +1,21 @@
+{
+  "name": "storage-adaptors",
+  "version": "0.0.1",
+  "description": "Storage adaptors for Norgin Bridge",
+  "main": "dist/storage-adaptors.common.js",
+  "scripts": {
+    "dist": "node dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoriginMedia/storage-adaptors.git"
+  },
+  "author": "Norigin Media AS",
+  "license": "MIT",
+  "devDependencies": {
+    "event": "git+https://github.com/NoriginMedia/event.git",
+    "rollup-babel-lib-bundler": "^3.0.1",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "rollup-plugin-babel": "^2.5.1"
+  }
+}
